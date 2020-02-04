@@ -8,4 +8,4 @@ LABEL maintainer="oborde@henix.fr" Description="Image Debian 10 adaptée à une 
 RUN apt update
 RUN apt install -y openssh-server python3 python3-pip
 RUN mkdir -p /root/.ssh
-COPY id_rsa.pub /root/.ssh/authorized_keys
+# COPY id_rsa.pub /root/.ssh/authorized_keys
