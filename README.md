@@ -1,8 +1,10 @@
 # firstDockerFile
 
 DockerFile image with debian 10, python, pip, ssh and copying ssh public key
-Used to learn Ansible
 
+Used with Ansible
+
+[To Do]
 uncomment line 11:
 COPY id_rsa.pub /root/.ssh/authorized_keys
 
