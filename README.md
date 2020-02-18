@@ -1,6 +1,6 @@
 # firstDockerFile
 
-DockerFile image with debian 10, python, ssh and copying ssh public key
+DockerFile image with debian 10, python, pip, ssh and copying ssh public key
 Used to learn Ansible
 
 uncomment line 11:
