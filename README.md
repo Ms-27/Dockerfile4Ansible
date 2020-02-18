@@ -1,11 +1,6 @@
-# firstDockerFile
+# Debian Dockerfile for Ansible remote
 
-DockerFile image with debian 10, python, pip, ssh and copying ssh public key
+DockerFile image with debian 10, python, pip, ssh and copying ssh key
 
-Used with Ansible
 
-[To Do]
-uncomment line 11:
-COPY id_rsa.pub /root/.ssh/authorized_keys
-
-and add your id_rsa.pub in the dockerfile folder before building
+Add your id_rsa.pub in the dockerfile folder before building
